@@ -25,7 +25,7 @@ class Main extends React.Component {
 		});
 	}
 
-	seed = () => {
+	random = () => {
 		let gridCopy = arrayClone(this.state.gridFull);
 		for (let i = 0; i < this.rows; i++) {
 			for (let j = 0; j < this.cols; j++) {
@@ -111,7 +111,7 @@ class Main extends React.Component {
 	}
 
 	componentDidMount() {
-		this.seed();
+		this.random();
 		this.playButton();
 	}
 
@@ -133,7 +133,7 @@ class Main extends React.Component {
 					slow={this.slow}
 					fast={this.fast}
 					clear={this.clear}
-					seed={this.seed}
+					random={this.random}
 					gridSize={this.gridSize}
 				/>
 
