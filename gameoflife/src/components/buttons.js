@@ -28,8 +28,8 @@ class Buttons extends React.Component {
 					<Button className="btn btn-default" onClick={this.props.fast}>
 					  Fast
 					</Button>
-					<Button className="btn btn-default" onClick={this.props.seed}>
-					  Seed
+					<Button className="btn btn-default" onClick={this.props.random}>
+					  Random
 					</Button>
 					<DropdownButton as={ButtonGroup} title="Dropdown" id="bg-nested-dropdown"
 						onSelect={this.handleSelect}
