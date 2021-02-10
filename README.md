@@ -1,3 +1,7 @@
+DEPLOYED: https://cs-build-week-1-qwf9bcs0g.vercel.app/
+
+
+
 # Cellular Automata and Conway's "Game of Life"
 
 ---
